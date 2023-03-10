@@ -1,0 +1,22 @@
+ /* The animation code */
+ @keyframes TwitterLogo{
+  from{
+    transform: translateX(500px);
+  }
+ }
+ to{
+  transform: translateX(0px);
+ }
+ .TwitterLogo{
+  animation-name:TwitterLogo ;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay:2s ;
+  animation-direction: normal;
+  animation-fill-mode:none ;
+  animation-iteration-count: infinite;
+
+ }
+ body{background-color: chartreuse;}
+ .TwitterLogo{object-position: center;}
+ 
